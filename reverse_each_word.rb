@@ -3,6 +3,5 @@ def reverse_each_word(sentence)
   sentence.split.each do |word|
    backwards<< word.reverse
   end
-  backwards.join
   puts backwards
 end
